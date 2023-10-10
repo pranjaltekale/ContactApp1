@@ -1,0 +1,54 @@
+/* dark-#f00c3a
+   faint-#f54064
+   light-#f6d8de
+   */
+   body{
+    background-color: rgb(96, 224, 220);
+}
+.app-title{
+    text-align: center;
+    color: #f00c3a;
+    font-size: 50px;
+}
+.app-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.contact-container
+{
+    
+    height: 400px;
+    width:400px;
+}
+.add-contact{
+
+    height: 400px;
+    width:400px;
+
+}
+.sub-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 2px solid #f00c3a;
+}
+.btn-add{
+    display: block;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 25px auto;
+    background-color: #f00c3a;
+    color: beige;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
